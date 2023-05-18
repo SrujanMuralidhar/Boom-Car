@@ -1,0 +1,374 @@
+.mainbg{
+  background-image: url("https://images.pexels.com/photos/57645/pexels-photo-57645.jpeg?auto=compress&cs=tinysrgb&w=1200");
+
+  background-size: cover; 
+  
+}
+
+#user_pas{
+  text-align: center;
+  padding: 10px;
+}
+.font{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.mainheading{
+  color:black;
+  font-size: 50px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  padding: 15px;
+  text-align: center;
+
+}
+
+.car_details{
+  background-color: white;
+  border-radius: 20px;
+  padding: 8px;
+  margin-right: 300px;
+  margin-left: 300px;
+  font-family: italic;
+  font-weight: bolder;
+  box-shadow: 5px 5px;
+  transition: all .2s ease-in-out;
+
+}
+
+.car_details:hover{
+
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+
+.discount:hover{
+  transform: hoverPop;
+
+}
+@keyframes hoverPop {
+  0%, 100% {
+    transform: scale(1);
+  }
+  33% {
+    transform: scale(1.05);
+  }
+  66% {
+    transform: scale(.90);
+  }
+}
+
+.all_image{
+  height: 100px;
+  
+}
+
+.padding_space1{
+  padding: 10px;
+
+}
+
+.margin_bottom_space2{
+  margin-bottom: 15px;
+
+}
+
+.align1{
+  text-align: center;
+}
+
+.align_heading{
+  text-align: left;
+}
+
+.space_between_button{
+  margin-right: 10px;
+  padding: 20px;
+}
+.space_between_text_pas{
+  margin-right:  27px;
+  padding: 20px;
+
+}
+.space_between_text_user{
+ margin-right: 30px;
+ padding: 20px;
+}
+.space_between_text_confpas{
+  margin-right: 2px;
+  padding: 20px;
+
+}
+
+.mainbg0{
+  background-image: url("https://images.pexels.com/photos/35967/mini-cooper-auto-model-vehicle.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  
+  background-color: rgb(237, 215, 186);
+  
+}
+.login_card{
+  background-color:rgb(237, 222, 203);
+  height: 400px;
+  width: 500px;
+  padding: 10px;
+  border-radius: 20px;
+  margin-top:  100px;
+  box-shadow: 5px 5px;
+}
+.error_message{
+  color: red;
+}
+
+.login_card_navbar{
+  background-color:rgb(241, 163, 60);
+  padding-top: 20px;
+  padding-right: 10px;
+  box-shadow: 5px 5px;
+}
+.para{
+  color: black;
+  font-size: 15px;
+  font-family: "Roboto";
+  text-decoration: underline;
+  height: 40px;
+  
+}
+.para1{
+  color: black;
+  font-size: 15px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: underline;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.heading1{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+}
+.heading2{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: normal;
+  
+  font-size: 22px;
+}
+.mainbg2{
+  /*background-image: url("https://img.freepik.com/free-photo/vintage-textured-watercolor-paper-background_53876-103939.jpg?w=996&t=st=1665642708~exp=1665643308~hmac=1c9ecbc178b1a4110e48a82baecd09bcfb8f8f2c81e9a9b798d318462c7e4906");
+  background-size: cover;
+  height: 100vh;*/
+  font-weight: 100;
+
+}
+.car_more_details{
+  background-color: white;
+  
+}
+.mainbg3{
+  background-color: bisque;
+
+}
+.offers_card{
+  background-color: grey;
+  border-style: solid;
+  border-color: black;
+  border-width: 3px;
+  border-radius: 20px;
+  height: 150px;
+  width: 150px;
+  margin: 20px;
+  box-shadow: 5px 5px;
+}
+.image2{
+  height: 100px;
+  width: 100px;
+  border-radius: 20px;
+
+}
+.carousel2{
+  padding: 15px;
+  height: 300px;
+}
+
+.login_page{
+  border : 10px solid black
+}
+.main-bg{
+  background-color:peachpuff;
+  background-size: cover;
+  /* height: 100vh; */
+  width: 100vw;
+}
+.boom_image{
+  height: 600px;
+  width: 100vw;
+}
+.dicount_card{
+  background-color: white;
+  border-style: solid;
+  border-color: black;
+  border-width: 3px;
+  border-radius: 20px;
+  height: 130px;
+  width: 160px;
+  
+}
+.image_card{
+  height: 100px;
+  width: 150px;
+  border-radius: 20px;
+  /* padding-top: 5px; */
+  padding: 5px;
+}
+.align_center{
+  text-align: center;
+}
+.padding_space{
+  padding: 5px;
+}
+.margin_space{
+  margin: 10px;
+  margin-top: 10px;
+}
+.login_card2{
+  /* background-color: rgb(130, 222, 240); */
+  background-color:coral;
+  padding-top: 20px;
+  padding-right: 10px;
+  width: 100vw;
+ 
+  
+
+}
+.card_booking{
+  background-color: white;
+
+}
+.booking_bg{
+  background-color: white;
+}
+
+
+.para{
+  color: black;
+  font-size: 15px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  height: 40px;
+  
+}
+.para1{
+  color: black;
+  font-size: 15px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.carousel_image{
+  height: 50vh;
+}
+.card_help{
+  background-color: white;
+  width: 100vw;
+  height: 200px;
+}
+.help_heading{
+  color: orange;
+  font-weight: bold;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 40px;
+}
+.help_para{
+  color: orange;
+  font-weight: normal;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+
+}
+.high_margin_space{
+  margin-top: 50px;
+}
+.car_page_bg{
+  background-color: white;
+
+}
+.car_height_carousel{
+  padding-left: 200px;
+  
+  height: 500px;
+  width:auto;
+  max-width: 1200px;
+
+}
+
+.card_car_details{
+  margin: 15px;
+}
+.padding_space1{
+  padding: 20px;
+}
+.margin_left{
+  margin-left: 10px;
+}
+.heading_details{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.car_text_details{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+
+.greeting_bg_image{
+  background-image: url("https://img.freepik.com/premium-photo/aerial-view-forest-nature-with-car-road-mountain-green-tree-top-view-road-curve-from-bird-eye-view-road-through-mountain-green-forest-beautiful-fresh-environment_73523-5853.jpg");
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+.greeting_card{
+  background-color: white;
+  background-size: cover;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  height: 200px;
+}
+.greeting_heading{
+  font-size: 35px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+}
+.greeting_para{
+  font-size: 19px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+
+}
+.margin_top{
+  margin-top: 20px;
+}
+.margin_space1{
+  margin-left: 10px;
+}
+.terms_and_cond{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  padding: 10px
+}
+
+.carousel-container {
+  background: #f1f1f1; display: flex; flex-wrap: nowrap;
+  overflow: hidden;
+}
+.carousel-item { 
+  height: 20rem;; 
+  min-width: 100%; 
+  width: 100%;
+  display: flex; align-items: center;
+  justify-content: center;
+  transition: 1s cubic-bezier(0.39, 0.575, 0.565, 1);
+}
